@@ -6,6 +6,77 @@
   height: 40vmin;
   pointer-events: none;
 }
+.searchInp{
+  margin: 20px;
+  padding: 5px 20px;
+}
+.homeHeader{
+  font-size: 25px;
+  font-weight: 700;
+  justify-content: flex-start !important;
+  margin-left: 0px;
+}
+/*  */
+.calendarDiv{
+  width: 100%;
+  margin: 25px;
+}
+.demo-app{
+  margin: 25px;
+}
+.activeListItem{
+  background-color: rgb(167, 214, 232);
+  border-radius: 50%;
+  padding: 10px;
+
+}
+.eventcss{
+  display: flex;
+}
+.activeListItem1{
+  background-color: rgb(167, 214, 232);
+  border-radius: 17px;
+   /* padding: 10px;  */
+
+}
+.typo{
+  display: inline-flex;
+}
+.addorder{
+  float: right;
+  
+}
+.tableHead{
+  display: block;
+  /* padding: 25px; */
+  margin: 40px;
+}
+.item{
+  padding: 10px;
+}
+.eventTitle{
+  background-color: blue;
+  color: white;
+}
+.reminderTitle{
+  background-color: orangered;
+  color: black;
+}
+  /* .subdrawer{
+    margin-left: 240px;
+  } */
+  @media (max-width: 767px) {
+    .css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper, .css-2dum1v-MuiDrawer-docked .MuiDrawer-paper {
+      display: none !important;
+    }
+    .css-s7s3c1-MuiGrid-root {
+      max-width: 0% !important;
+    }
+    .css-1ny1gtx-MuiGrid-root {
+
+    }
+
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

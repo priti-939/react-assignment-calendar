@@ -1,0 +1,84 @@
+.login {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 30%;
+    border: 1px solid #e9e7e7;
+    padding: 50px;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .profile {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+  }
+  .loginsection {
+    margin-top: 8%;
+  }
+  .logininput {
+    width: 98%;
+    padding: 10px 5px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+  }
+  .loginbtn {
+    padding: 10px 25px;
+    margin: 10px auto;
+    background-color: rgb(39, 2, 73);
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .errcss {
+    color: rgb(202, 17, 17);
+    font-size: 12px;
+  }
+  .heading {
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0px;
+    color: rgb(39, 2, 73);
+    font-weight: 900;
+    padding-bottom: 10px;
+  }
+  .subheading {
+    margin-bottom: 10px;
+    color: rgb(39, 2, 73);
+    font-weight: 600;
+    margin-top: 3px;
+  }
+  .profileInfo {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .register{
+    float: right;
+    text-decoration: none;
+    color: rgb(39, 2, 73);
+    margin-top: 10px;
+  }
+  .createpost{
+    float: right;
+    margin: 20px;
+    background-color: rgb(39, 2, 73);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+  }
