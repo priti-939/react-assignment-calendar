@@ -186,6 +186,7 @@ const List = () => {
   };
 
   const handleEditOrder = () => {
+    console.log('edited', orderId)
     setLoader(true);
     fetch(`https://jsonplaceholder.typicode.com/posts/${orderId}`, {
       method: "PUT",
@@ -338,6 +339,7 @@ const List = () => {
                       left: "50%",
                       marginTop: "-12px",
                       marginLeft: "-12px",
+                      color:'white'
                     }}
                   />
                 )}
@@ -358,6 +360,7 @@ const List = () => {
                       left: "50%",
                       marginTop: "-12px",
                       marginLeft: "-12px",
+                      color:'white'
                     }}
                   />
                 )}
